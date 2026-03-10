@@ -1,4 +1,27 @@
-import Image from "next/image";
+import Hero from '@/components/Hero';
+import Projects from '@/components/Projects';
+import TechStack from '@/components/TechStack';
+import Contact from '@/components/contact';
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-[#0f172a] text-slate-200 selection:bg-cyan-500/30">
+      {/* Background Decorativo */}
+      <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
+        <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] rounded-full bg-cyan-500/10 blur-[120px]" />
+        <div className="absolute -bottom-[10%] -right-[10%] w-[40%] h-[40%] rounded-full bg-purple-500/10 blur-[120px]" />
+      </div>
+
+      <div className="relative z-10 max-w-6xl mx-auto px-6 py-12 space-y-32">
+        <Hero />
+        <TechStack />
+        <Projects />
+        <Contact />
+      </div>
+    </main>
+  );
+}
+/*import Image from "next/image";
 
 export default function Home() {
   return (
@@ -62,4 +85,4 @@ export default function Home() {
       </main>
     </div>
   );
-}
+}*/
