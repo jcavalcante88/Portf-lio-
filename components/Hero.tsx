@@ -14,7 +14,7 @@ export default function Hero() {
       
       <p className="max-w-2xl text-lg text-slate-400 leading-relaxed">
         Estudante de ADS & Desenvolvedor Full Stack. Especializado em transformar ideias em 
-        aplicações robustas com <span className="text-white font-medium">React, Node.js e TypeScript</span>.
+        aplicações robustas com <span className="text-white font-medium">JavaScrip, Node.js e TypeScript</span>.
       </p>
 
       <div className="flex gap-4 pt-4">
