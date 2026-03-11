@@ -1,4 +1,4 @@
-const skills = ["React", "Next.js", "Node.js", "TypeScript", "PostgreSQL", "Docker", "Tailwind CSS", "Prisma"];
+const skills = ["Bootstrap5", "Power Bi", "Next.js", "Node.js", "TypeScript", "Msql", "Tailwind CSS", "javScript"];
 
 export default function TechStack() {
   return (
