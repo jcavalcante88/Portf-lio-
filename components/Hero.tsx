@@ -24,9 +24,11 @@ export default function Hero() {
         <a href="https://www.linkedin.com/in/jerry-camargo" className="p-3 rounded-xl bg-slate-800 hover:bg-slate-700 transition-colors">
           <Linkedin size={24} />
         </a>
-        <button className="px-8 py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl transition-all shadow-lg shadow-cyan-900/20">
+       <a href="/Cv.teck.pdf" 
+          download="Curriculo-J-Cavalcante.pdf"
+          className="px-8 py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl transition-all shadow-lg shadow-cyan-900/20 flex items-center justify-center">
           Baixar Currículo
-        </button>
+        </a>
       </div>
     </section>
   );
