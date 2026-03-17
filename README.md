@@ -23,3 +23,7 @@ PostgreSQL (Neon)	Banco de Dados em Nuvem	☁️
 Assim como um foguete 🚀, o Stock Premium foi construído para escalar. A arquitetura Full Stack permite que o sistema suporte desde pequenos estoques locais até grandes inventários de segurança digital, garantindo que nenhum dado se perca no espaço.
 🌌 Visão do Futuro
 Assim como um foguete 🚀, o Stock Premium foi construído para escalar. A arquitetura Full Stack permite que o sistema suporte desde pequenos estoques locais até grandes inventários de segurança digital, garantindo que nenhum dado se perca no espaço.
+🔗 Link para Recrutadores
+Para ver o sistema em órbita e testar as funcionalidades:
+
+➔ ACESSAR DEMO ONLINE (https://estoque-premium-jerry.vercel.app)
