@@ -2,12 +2,12 @@ import { ExternalLink, Code2 } from 'lucide-react';
 
 const projects = [
   {
-    title: "Sistema de Gestão SaaS",
-    description: "Plataforma completa para controle de estoque e vendas em tempo real.",
-    problem: "Empresas perdiam tempo com planilhas manuais.",
-    tech: ["Next.js", "Prisma", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "https://github.com/jcavalcante88"
+    title: "Stock Premium",
+    description: "Gestão inteligente de inventário com cálculos automáticos de saldo e faturamento total.",
+    problem: "Empresas perdiam tempo com planilhas manuais e falta de controle de ativos de segurança.",
+    tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL (Neon)"],
+    link: "https://estoque-premium-jerry.vercel.app",
+    github: "https://github.com/jcavalcante88/estoque-premium"
   },
   {
     title: "API de Agendamentos",
@@ -35,14 +35,28 @@ export default function Projects() {
             </div>
 
             <div className="flex flex-wrap gap-2 mb-8">
-              {item.tech.map(t => <span key={t} className="text-xs px-2 py-1 bg-slate-700 rounded text-cyan-300 font-mono">{t}</span>)}
+              {item.tech.map(t => (
+                <span key={t} className="text-xs px-2 py-1 bg-slate-700 rounded text-cyan-300 font-mono">
+                  {t}
+                </span>
+              ))}
             </div>
 
             <div className="flex gap-4">
-              <a href={item.link} className="flex items-center gap-2 text-sm font-bold text-cyan-400 hover:text-cyan-300">
+              <a 
+                href={item.link} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-center gap-2 text-sm font-bold text-cyan-400 hover:text-cyan-300 transition-colors"
+              >
                 <ExternalLink size={18} /> Demo Online
               </a>
-              <a href={item.github} className="flex items-center gap-2 text-sm font-bold text-slate-400 hover:text-white">
+              <a 
+                href={item.github} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-center gap-2 text-sm font-bold text-slate-400 hover:text-white transition-colors"
+              >
                 <Code2 size={18} /> Código
               </a>
             </div>
