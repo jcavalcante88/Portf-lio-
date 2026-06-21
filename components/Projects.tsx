@@ -6,7 +6,7 @@ const projects = [
     description: "Gestão inteligente de inventário com cálculos automáticos de saldo e faturamento total.",
     problem: "Empresas perdiam tempo com planilhas manuais e falta de controle de ativos de segurança.",
     tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL (Neon)"],
-    link: "https://estoque-premium-jerry.vercel.app",
+    link: "https://cheveiro-gestao.vercel.app/",
     github: "https://github.com/jcavalcante88/estoque-premium"
   },
   {
