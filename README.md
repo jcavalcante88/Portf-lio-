@@ -1,29 +1,50 @@
-🚀 Stock Premium – Gestão de Inventário Inteligente
-Status do Projeto: 🟢 Operacional & Online
+# 🌐 Portfólio — Jerry Cavalcante
 
-Foco: Controle de ativos de segurança e automação financeira.
+Meu portfólio profissional como **Desenvolvedor Full-Stack**: uma vitrine dos projetos que construí e coloquei em produção, com foco em aplicações web reais — de SaaS com pagamento a automações de WhatsApp.
 
-🤖 A Inteligência por trás do Sistema
-O Stock Premium não é apenas uma lista de itens. É um ecossistema inteligente projetado para lidar com o mercado de segurança digital.
+🔗 **Acesse ao vivo:** https://portf-lio-xi-ruddy.vercel.app
 
-Controle Total: Gerenciamento preciso de fechaduras digitais, miolos e componentes eletrônicos.
+<!-- 📸 DICA: adicione um print da home do portfólio. Salve em /public e descomente:
+![Portfólio](public/screenshot.png)
+-->
 
-Automação de Cálculos: O sistema atua como um robô financeiro, calculando automaticamente o saldo, valor unitário e capital total em estoque.
+---
 
-Visão Estratégica: Dashboards que mostram o faturamento real e a saúde do seu inventário em tempo real.
+## 👋 Sobre mim
 
-🛠️ Pilha Tecnológica (Tech Stack)
-Tecnologia	Função no Projeto	Ícone
-Next.js	Framework de Alta Performance	💻
-TypeScript	Segurança e Tipagem de Dados	🛡️
-Prisma	Ponte Inteligente com o Banco	🤖
-Tailwind CSS	Design Moderno (Glassmorphism)	🎨
-PostgreSQL (Neon)	Banco de Dados em Nuvem	☁️
-🌌 Visão do Futuro
-Assim como um foguete 🚀, o Stock Premium foi construído para escalar. A arquitetura Full Stack permite que o sistema suporte desde pequenos estoques locais até grandes inventários de segurança digital, garantindo que nenhum dado se perca no espaço.
-🌌 Visão do Futuro
-Assim como um foguete 🚀, o Stock Premium foi construído para escalar. A arquitetura Full Stack permite que o sistema suporte desde pequenos estoques locais até grandes inventários de segurança digital, garantindo que nenhum dado se perca no espaço.
-🔗 Link para Recrutadores
-Para ver o sistema em órbita e testar as funcionalidades:
+Desenvolvedor Full-Stack e estudante de Análise e Desenvolvimento de Sistemas. Gosto de transformar problemas reais em produtos que funcionam e vão pro ar — não só protótipos. Tenho perfil resolvedor: construo do banco de dados ao deploy.
 
-➔ ACESSAR DEMO ONLINE (https://estoque-premium-jerry.vercel.app)
+## 🚀 Projetos em destaque
+
+| Projeto | Descrição | Demo |
+|---------|-----------|------|
+| **Chaveiro Pro (SaaS)** | SaaS de gestão para chaveiros: login social, multi-cliente, estoque, vendas e cobrança recorrente com Stripe | [ver](https://chaveiro-saas.vercel.app) |
+| **Chaveiro Pro (demo)** | Painel de gestão de produtos, estoque e margens (front-end) | [ver](https://cheveiro-gestao.vercel.app) |
+| **Barbearia Jé** | Site institucional responsivo com agendamento via WhatsApp | [ver](https://barbearia-je.vercel.app) |
+| **Bot WhatsApp** | Automação de atendimento com menu interativo (WPPConnect) | — |
+
+## 🛠️ Tecnologias
+
+- **Front-end:** Next.js, React, TypeScript, Tailwind CSS, HTML, CSS, JavaScript
+- **Back-end:** Node.js, Next.js API Routes, PHP
+- **Banco de dados:** PostgreSQL, Prisma, MySQL, SQL
+- **Autenticação & Pagamentos:** NextAuth, Clerk, Stripe
+- **Dados:** Power BI, Excel
+- **Deploy:** Vercel
+
+## 📫 Contato
+
+- 🐙 GitHub: [@jcavalcante88](https://github.com/jcavalcante88)
+- 💼 LinkedIn: [jerry-camargo](https://www.linkedin.com/in/jerry-camargo)
+- 🌐 Portfólio: [portf-lio-xi-ruddy.vercel.app](https://portf-lio-xi-ruddy.vercel.app)
+
+## 💻 Rodar localmente
+
+```bash
+git clone https://github.com/jcavalcante88/Portf-lio-.git
+cd Portf-lio-
+npm install
+npm run dev
+```
+
+Construído com **Next.js + TypeScript + Tailwind CSS**.
