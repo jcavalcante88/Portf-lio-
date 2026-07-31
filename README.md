@@ -4,9 +4,7 @@ Meu portfólio profissional como **Desenvolvedor Full-Stack**: uma vitrine dos p
 
 🔗 **Acesse ao vivo:** https://portf-lio-xi-ruddy.vercel.app
 
-<!-- 📸 DICA: adicione um print da home do portfólio. Salve em /public e descomente:
-![Portfólio](public/screenshot.png)
--->
+![Portfólio de Jerry Cavalcante](public/screenshot.png)
 
 ---
 
